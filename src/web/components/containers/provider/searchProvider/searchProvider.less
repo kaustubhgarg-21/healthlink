@@ -1,0 +1,102 @@
+.provider{
+    border-bottom: "1px solid rgba(0, 0, 0, 0.1)";
+    padding-bottom: 1.563rem;
+    margin-bottom: 1.25rem;
+}
+.providerSearchCard{
+    border-radius: 5px !important;
+    margin-top: 2vh !important;
+    min-height: 72.5vh;
+    .secondary{
+        width: 40px;
+        height: 40px;
+    }
+}
+.searchText {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #2E2E2E;
+}
+.srchBtn{
+    .secondary{
+        background: #fff !important;
+    }
+}
+.primary {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.188rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #000099;
+    height: 2.5rem;
+    width: 100%;
+    border: 1px solid #000099;
+    cursor: pointer;
+    background-color: transparent;
+}
+.providerSearchTable{
+    font-family: Open Sans;
+    thead{
+        tr{
+            th{  
+                font-style: normal;
+                font-weight: 600;
+                font-size: 0.83vw;
+                text-align: center;
+                text-transform: uppercase;
+                color: #000099;
+                background-color: #F5F6FA !important;
+                }
+        }
+        
+    }
+    td{
+        height: 2.5rem;
+        border: 1px solid rgba(137, 137, 137, 0.1);
+        text-align: center;
+        cursor: pointer
+    }
+}
+.srchBtn{
+    padding-right: 42px !important;
+}
+
+.platformProvider{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
+padding-bottom: 10px;
+color: #2E2E2E;
+}
+#searchProvider,.NewProviderRow{
+    .rc-virtual-list-holder-inner{
+        .ant-select-item{
+           border-bottom: 1px solid #f0f0f0;
+        }
+        .ant-select-item:last-child{
+            border-bottom: 0px !important
+         }
+    }
+    input:-webkit-autofill, .NewProviderRow input:-webkit-autofill:focus, .NewProviderRow input:-webkit-autofill:hover, .NewProviderRow select:-webkit-autofill, .NewProviderRow select:-webkit-autofill:focus, .NewProviderRow select:-webkit-autofill:hover, .NewProviderRow textarea:-webkit-autofill, .NewProviderRow textarea:-webkit-autofill:focus, .NewProviderRow textarea:-webkit-autofill:hover {
+        -webkit-text-fill-color: #333!important;
+        -webkit-box-shadow: 0 0 0 1000px #ffff inset;
+        -webkit-transition: background-color 5000s ease-in-out 0s;
+        transition: background-color 5000s ease-in-out 0s;
+    }
+}

@@ -1,0 +1,57 @@
+.phoneInput{
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 120% !important;
+    color: #161616 !important;
+    margin-bottom: 0px !important;
+    border: 1px solid #d9d9d9;;
+    border-radius: 5px !important;
+    height: 40px;
+    font-size:12px !important;
+    .maskedInput{
+        width: 80%;
+    }
+    .ant-select-selection-item{
+        .label{
+            display: none
+        }
+        }
+    .ant-select-show-search.ant-select:not(.ant-select-customize-input){
+        width: 20%;
+    .ant-select-selector{
+        padding-right: 0px;
+        // padding-left: 5px;
+        height: 35px !important ;
+        
+    }
+}
+    .ant-input{
+        padding-right: 5px;
+        padding-left: 0px;
+    }
+}
+.ant-form-item-has-error{
+    .phoneInput{
+        border: 1px solid red;
+        .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input) .ant-select-selector{
+            border-color: transparent !important
+        }
+
+    }
+}
+
+.expanded{
+    .ant-select-show-search.ant-select:not(.ant-select-customize-input){
+        width: 40%;
+}
+.maskedInput{
+    width: 65%;
+}
+}
+
+.maskedInput{
+    border: none;
+    outline: none;
+}

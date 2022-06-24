@@ -1,0 +1,38 @@
+.search-renderer{
+    display: flex;
+    justify-content: end;
+    float:right
+
+}
+.searchBox{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px; 
+    height: 2.5rem;
+    outline: none;
+    padding-left: 12px;
+    background-image: url("../../../../../assets/icons/searchIcon.svg");
+    background-repeat: no-repeat;
+    background-position: right 12px bottom 10px;
+    width: 100%;
+    padding-right: 35px;
+    &:focus{
+        border-color: rgba(0, 0, 0, 0.2) !important;
+
+    }
+    &:active{
+        border-color: rgba(0, 0, 0, 0.2) !important;
+    }
+    &:hover{
+        border-color: rgba(0, 0, 0, 0.2) !important;
+    }
+}
+.searchBtn{
+    height: 2.5rem !important;
+    border-radius: 7px !important;
+    width: 2.75rem;
+}
+.ant-btn{
+    padding:4px 11px !important;
+}

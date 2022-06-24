@@ -1,0 +1,120 @@
+.centres-container{
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.tableContainer{
+    padding-top: 1.25rem;
+}
+.addDepCenterrender{
+   height: auto !important;
+}
+
+.centreTable{
+    font-family: Open Sans;
+    .selected{
+        background: rgba(137, 137, 137, 0.12);
+        td{
+            padding:0px;
+            .cellRenderer{
+                border-left:0px!important;
+                align-items: center;
+                padding: 10px 10px 0.938rem 1.875rem;
+                border: 1px solid #E9ECEF;
+            }
+        }
+        }
+    thead{
+        tr{
+            th{
+                
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px !important;
+                text-align: center;
+                text-transform: uppercase;
+                color: #000099;
+                background: #F5F6FA;
+                }
+              
+        }
+        
+    }
+    tbody{
+        tr{
+            td{
+                padding:  0px;
+                .expandRender{
+                    padding: 16px 16px;
+                    cursor: pointer;
+                }
+            }
+            td:nth-child(1){
+                padding: 16px 16px !important;
+            }
+        }
+    }
+    .departmentTable{
+        thead{
+            display: none;
+        }
+    }
+    td{
+        height: 2.5rem;
+        border: 1px solid rgba(137, 137, 137, 0.1);
+        padding: 16px 16px !important;
+     
+    }
+    .ant-table-expanded-row-level-1{
+        td{
+            height: 2.5rem;
+            border: 1px solid rgba(137, 137, 137, 0.1);
+        }
+    }
+    .ant-table{
+        line-height: 0px;
+    }
+}
+.dropdownIcon{
+    font-size: 10px;
+}
+
+    .orgcenterTable .selected td:first-child {
+        padding: 0px;
+        border-right: 3px solid #000099 !important;
+    }
+    :-webkit-autofill:focus{
+        background-color: #FFFFFF !important;
+    }
+
+ 
+       #organizationEdit {
+        .ant-select-single.ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+            padding-right: 20px;
+        }
+        .phoneInput .ant-select-show-search.ant-select:not(.ant-select-customize-input) {
+            width: 45% !important;
+        }
+       }
+       .phoneInput .ant-select-show-search.ant-select:not(.ant-select-customize-input) {
+            width: 25%;
+        }
+
+  .orgcenterTable{
+    table{
+        thead{
+            tr{
+                th{
+                    text-align: center;
+                }
+            }
+        }
+    }
+  }
+  @media(max-width:1440px){
+    #organizationEdit {
+        .ant-select-single.ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+            padding-right: 25px !important;
+        }
+  }
+}

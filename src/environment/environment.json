@@ -1,0 +1,80 @@
+{
+    "runningEnv": "DEV",
+    "environments": [
+        {
+            "type": "DEV",      
+            "baseAPIUrls": {
+                "modules": {
+                    "organisation": "https://dev.hlxexchange.com/api/v1/",
+                    "login":  "https://dev.hlxexchange.com/api/v1/",
+                    "user": "https://dev.hlxexchange.com/api/v1/",
+                    "role": "https://dev.hlxexchange.com/api/v1/",
+                    "provider": "https://dev.hlxexchange.com/api/v1/",
+                    "hrm": "https://dev.hlxexchange.com/api/v1/",
+                    "patient": "https://dev.hlxexchange.com/api/v1/",
+                    "permission": "https://dev.hlxexchange.com/api/v1/",
+                    "roles": "https://dev.hlxexchange.com/api/v1/",
+                    "specialty": "https://dev.hlxexchange.com/api/v1/",
+                    "audit": "https://dev.hlxexchange.com/api/v1/",
+                    "notification": "https://dev.hlxexchange.com/api/v1/",
+                    "socket": "https://dev.hlxexchange.com",
+                    "alert" : "https://dev.hlxexchange.com/api/v1/"
+
+                }
+            }
+        },
+        {
+            "type": "QA",
+            "baseAPIUrls": {
+                "modules": {
+                    "organisation": "https://qa.hlxexchange.com/api/v1/",
+                    "login":  "https://qa.hlxexchange.com/api/v1/",
+                    "user": "https://qa.hlxexchange.com/api/v1/",
+                    "role": "https://qa.hlxexchange.com/api/v1/",
+                    "provider": "https://qa.hlxexchange.com/api/v1/",
+                    "hrm": "https://qa.hlxexchange.com/api/v1/",
+                    "patient": "https://qa.hlxexchange.com/api/v1/",
+                    "permission": "https://qa.hlxexchange.com/api/v1/",
+                    "roles": "https://qa.hlxexchange.com/api/v1/",
+                    "specialty": "https://qa.hlxexchange.com/api/v1/",
+                    "audit": "https://qa.hlxexchange.com/api/v1/",
+                    "notification": "https://qa.hlxexchange.com/api/v1/",
+                    "socket": "https://qa.hlxexchange.com",
+                    "alert" : "https://qa.hlxexchange.com/api/v1/"
+
+                }
+            }
+        },
+        {
+            "type": "PROD",
+            "baseAPIUrls": {
+                "modules": {
+
+                }
+            }
+        },
+        {
+            "type": "DEMO",
+            "baseAPIUrls": {
+                "modules": {
+                    "organisation": "https://demo.hlxexchange.com/api/v1/",
+                    "login":  "https://demo.hlxexchange.com/api/v1/",
+                    "user": "https://demo.hlxexchange.com/api/v1/",
+                    "role": "https://demo.hlxexchange.com/api/v1/",
+                    "provider": "https://demo.hlxexchange.com/api/v1/",
+                    "hrm": "https://demo.hlxexchange.com/api/v1/",
+                    "patient": "https://demo.hlxexchange.com/api/v1/",
+                    "permission": "https://demo.hlxexchange.com/api/v1/",
+                    "roles": "https://demo.hlxexchange.com/api/v1/",
+                    "specialty": "https://demo.hlxexchange.com/api/v1/",
+                    "audit": "https://demo.hlxexchange.com/api/v1/",
+                    "notification": "https://demo.hlxexchange.com/api/v1/",
+                    "socket": "https://demo.hlxexchange.com",
+                    "alert" : "https://demo.hlxexchange.com/api/v1/"
+
+
+                }
+            }
+        }
+    ]
+}

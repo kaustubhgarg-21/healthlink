@@ -1,0 +1,101 @@
+.patient-Tabs{
+    width: 100%;
+    font-family: Open Sans;
+    .ant-tabs-tab-btn{
+    color: #2E2E2EB3 !important;
+    font-size: 14px;
+    line-height: 1rem;
+    font-weight: 600;
+    }
+    .ant-tabs-nav{
+        padding-left: 1.5vw !important;
+        padding-right: 2vw !important;
+    }
+    .ant-tabs-nav-wrap{
+        display: inline-block !important;
+        width: -webkit-fill-available;
+    }
+    .ant-tabs-tab{
+        border-left: 1px solid rgba(137, 137, 137, 0.3);
+        margin: 0.75rem 0px 0.75rem 0px !important;
+        overflow: hidden;
+        justify-content: center;
+        padding:5px 14px!important;
+        min-width: 11.8%;
+        flex-shrink: 0;
+    }
+    .ant-tabs-tab div:hover{
+      color: #000099 !important;
+    }
+    .ant-tabs-tab-active .ant-tabs-tab-btn{
+        color: #000099 !important;
+        font-weight: 600;
+    }
+    .ant-tabs-ink-bar{
+        background: #000099 !important;
+    }
+    .ant-tabs-nav-list{
+         transform: translate(0px, 0px); 
+         display: flex !important;
+           width: 84%; 
+          overflow-x: auto;
+           
+     } 
+      @media(min-width:768px)and (max-width:992px){
+        .ant-tabs-nav-list{
+          transform: translate(0px, 0px); 
+          display: flex !important;
+           overflow-x: auto !important;
+        }
+      
+      }
+}
+
+.mainRow{
+    padding-bottom: 5.625rem;
+}
+.providerListCard-title{
+    font-family: Open Sans;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.patient-Tabs ::-webkit-scrollbar {
+     width: -1px;
+  }
+  .patient-Tabs .ant-tabs-tab:first-child {
+    border-left: none !important;
+}
+  /* Track */
+  .patient-Tabs ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+  }
+  
+  /* Handle */
+  .patient-Tabs ::-webkit-scrollbar-thumb {
+    background: rgb(204, 196, 196);
+  }
+.ant-picker-suffix svg {
+    width: 15px;
+    height: 15px;
+}
+@media(max-width:992px){
+  .ant-tabs-tab {
+    border-left: 1px solid rgba(137, 137, 137, 0.3);
+    margin: 0.75rem 0px 0.75rem 0px !important;
+    overflow: hidden;
+    justify-content: center;
+    padding: 5px 14px!important;
+    flex-shrink: 0; 
+}
+.patient-Tabs .ant-tabs-nav-list {
+  transform: translate(0px, 0px);
+  display: flex !important;
+  width: 84% !important;
+  overflow-x: auto;
+  font-size: 12px!important;
+}
+.patient-Tabs{
+  font-size: 12px!important;
+
+  }
+}

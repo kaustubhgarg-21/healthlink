@@ -1,0 +1,96 @@
+.importScreenCard{
+    margin-top: 30px !important;
+    min-height: 480px;
+    min-height: 72vh;
+    
+}
+.browseBtn{
+    border: 1px solid rgba(46, 46, 46, 0.2);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12px;
+    height: 40px;
+    .importUpload{
+        width: 40%;
+            .ant-upload.ant-upload-select{
+                display: block !important;
+            }
+        }
+        .ant-form-item{
+            margin-bottom: 10px;
+        }
+}
+
+.browser{
+    position: relative;
+    padding: 5px 10px;
+ }
+.instructionModal{
+    .ant-modal-close-x svg{
+        height: 12px !important;
+        width: 12px !important;
+    }
+    .ant-modal-body{
+        width: 500px;
+        padding-top:31px;
+    }
+    ul{
+        margin-top: 14px;
+    }
+    .ant-modal-content{
+        border-radius: 10px !important;
+    }
+}
+.instHead{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 160%;
+display: flex;
+align-items: center;
+letter-spacing: 0.002em;
+color: #000099;
+justify-content: space-around;
+
+}
+ul>li::marker{
+    font-size:0.8rem;
+    color: #2E2E2E;
+}
+
+.liTxt{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 160%;
+align-items: center;
+letter-spacing: 0.002em;
+color: #2E2E2E;
+margin-bottom: 23px;
+}
+.importScreenCard{
+    .ant-form-item-label{
+            margin-right: 20px !important;
+    }
+}
+#importUsers{
+    .ant-upload.ant-upload-select{
+display: block;
+    }
+}
+
+.ant-row.ant-form-item.ant-form-item-with-help.ant-form-item-has-error{
+    .browseBtn{
+        border: 1px solid #EE0000 ;
+    }
+
+}
+@media(max-width:992px){
+        .importScreenCard .ant-form-item{
+            margin-bottom: 10px;
+        }
+}

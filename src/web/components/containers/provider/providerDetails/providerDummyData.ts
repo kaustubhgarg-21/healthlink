@@ -1,0 +1,28 @@
+import dumyImg from "../../../../../assets/icons/dumyImg.jpg" 
+
+export const provider = {
+    id: 1,
+    name:"Paul Finix",
+    designation: "MD",
+    speciality: "internal medicine",
+    firstName: "Paul",
+    title:"Dr.",
+    img: dumyImg,
+    mi:"hill",
+    lastName:"Finix",
+    userName:"paul123",
+    address1: "New Jersey",
+    address2: "New York",
+    email: "xyz@gmail.com",
+    contactNumber: "+140313313",
+    mobileNumber: "9876543210",
+    country: "India",
+    state:"up",
+    city:"Noida",
+    zip: "201301",
+    status: "Inactive",
+    role:"Admin",
+    providerType:"Doctor",
+    npi:"000000",
+    npiName:"none",                    
+}

@@ -1,0 +1,154 @@
+.timeRenderer{
+    border-right: 1px solid rgba(201, 201, 201, 0.3); 
+    padding: 0px !important;
+    font-size: 15px !important;
+    color:#2E2E2E !important;
+    div{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.scheduleViewDay{
+    thead{
+        tr{
+            th{
+                
+                font-style: normal;
+                font-weight: 600;
+                font-size: 1vw;
+                text-align: center;
+                text-transform: uppercase;
+                color: #000099;
+                background: #DAECFA;
+                padding: 8px !important;
+                }
+                th:nth-child(2) {
+                    padding-right: 8% !important;
+                    font-size:20px;
+                }
+        }
+    }
+    tbody{
+        .ant-table-measure-row{
+            td{
+                height: 0px !important; 
+            }
+       }
+        tr{
+            td:nth-child(1){
+                border-top: 0.25px solid rgba(137, 137, 137, 0.3) !important;
+                border-bottom: 0.25px solid rgba(137, 137, 137, 0.3) !important;
+                border-left: 0.5px solid rgba(137, 137, 137, 0.3) !important;
+            }
+            td{
+                padding: 0px !important;
+                height: 50px !important;
+                overflow-y: visible;
+                border-top: none !important;
+                border-bottom: none !important;
+                font-size: 12px !important;
+            }
+        }
+    }
+
+}
+
+.scheduleViewWeek{
+    thead{
+        tr{
+            th.ant-table-cell.CurrtDaybgcolor {
+                background: #DAECFA;
+        }
+            th{
+                
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #000099;
+                background: #FFFFFF;
+                padding: 8px !important;
+                }
+        }
+    }
+    tbody{
+        .ant-table-measure-row{
+            td{
+                height: 0px !important; 
+            }
+       }
+        tr{
+            max-height: 50px !important;
+            td:nth-child(1){
+                border-top: 0.25px solid rgba(137, 137, 137, 0.3) !important;
+                border-bottom: 0.25px solid rgba(137, 137, 137, 0.3) !important;
+                border-left: 0.5px solid rgba(137, 137, 137, 0.3) !important;
+            }
+            td{
+                padding: 0px !important;
+                height: 50px !important;
+                max-height: 50px !important;
+                overflow-y: visible;
+                border-top: none !important;
+                border-bottom: none !important;
+                font-size: 12px !important;
+
+                div{
+                    span{
+                        font-size: 12px !important;
+                    }
+                }
+            }
+        }
+    }
+
+}
+.providerName{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 120%;
+    color: #2E2E2E;
+    margin-bottom: 0px;
+}
+.instructions{
+    font-weight: 400;
+font-size: 12px;
+line-height: 120%;
+color: #626262;
+margin-bottom: 0px;
+}
+.readingLabel{
+    height: 40px;
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.readingLabelMIcon{
+    height: 30px;
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+}
+.readingLabelMIcon {
+    img{
+        width: 22px;
+        height: 16px;
+
+    }
+}
+.readingday{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}

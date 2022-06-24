@@ -1,0 +1,129 @@
+.delete-message {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.11vw;
+    line-height: 160%;
+    display: flex !important;
+    align-items: center;
+    letter-spacing: 0.002em;
+    color: #2E2E2E;
+    justify-content: center;
+}
+
+.warnModal {
+    .ant-modal-content {
+        border-radius: 10px;
+        height: 100%;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ant-modal {
+        // height: 30vh;
+        // width: 35.14vw !important
+    }
+    .ant-modal-close-x svg{
+        width: 15px;
+        height: 15px;
+    }
+
+}
+
+.ant-modal-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    outline: 0;
+    -webkit-overflow-scrolling: touch;
+}
+
+.primary-text {
+    font-family: Open Sans;
+    font-style: normal;
+    display: flex !important;
+    align-items: center;
+    letter-spacing: 0.002em;
+    color: #2E2E2E;
+    justify-content: center;
+}
+
+.secondary-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 120%;
+    letter-spacing: 0.002em;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #2E2E2E;
+    margin-top: 5px;
+}
+
+.tertiary-text{
+    color: #000099;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.002em;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.success {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.warn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.button-modal {
+    padding-top: 1.75rem;
+}
+
+.cancelClick {
+    font-weight: 700;
+    border: 1px solid #000099;
+    background: white;
+}
+
+.deleteClick {
+    background: white;
+}
+
+
+
+.bt1 {
+    width: 10% !important
+}
+
+.ant-modal-close-x {
+    font-size: 9px !important;
+}
+
+@media(min-width:768px)and(max-width:1024px) {
+    .ant-modal-wrap {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0% !important;
+        overflow: auto;
+        outline: 0;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+@media(max-width:992px){
+    // .warnModal .ant-modal { height: 30vh; width: 50.14vw !important; }
+}

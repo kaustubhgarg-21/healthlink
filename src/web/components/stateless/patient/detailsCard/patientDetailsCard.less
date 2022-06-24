@@ -1,0 +1,221 @@
+.patientDetailsCard{
+    margin: 2.1vh 2vw 1.5vh 1.5vw !important; 
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+    font-family: Open Sans; 
+    border-radius: 10px !important;
+    .pt-10{
+        align-items: center;
+        padding-top: 20px;
+    }
+    .ant-card-body{
+        padding:5px 1.25rem 1rem 1.25rem !important;
+        p{
+            margin-bottom: 5px;
+        }
+        .patientName{
+            font-weight: 600;
+            font-size: 14px !important;
+            line-height: 120%;
+            color: #000099; 
+        }
+        .pateintType{
+        font-weight: normal;
+        line-height: 120%;
+        color: #000099;
+        }
+        .patientDetails{
+            font-family: PT Sans;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 120%;
+            letter-spacing: 0.05em;            
+        } 
+        .key{
+            color: #898989 !important; 
+        } 
+        .value{
+            color: #2E2E2E !important;
+        }   
+        }
+    .addNotes{
+        padding-top:5px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        height: 2.5rem;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        cursor: pointer;
+        .downIcon{
+            width: 0.938rem;
+        }
+    }
+     .actionIcon{
+         height: 1.875rem;
+         width: 1.875rem;
+         cursor: pointer;
+     } 
+     .breadCrumbsStyle{
+         margin-bottom: 0px !important;
+     }
+
+        
+}   
+.brdCrumbs{
+    display: flex !important;
+    align-items: center;
+}
+.PatentDetailtext{
+    display:inline-grid !important;
+    justify-content: center;
+}
+.bckBtn{
+    background: #000099;
+    border-radius: 3px !important;
+    cursor: pointer;
+    width: 20px;
+    padding: 0px;
+    height: 20px;
+}
+.bckIcon{
+    color: #FFFFFF;
+    width: 10px;
+    height: 12px;
+    vertical-align: text-top;
+}
+.actionMenu{
+    background: #FFFFFF;
+    border: 1px solid rgba(46, 46, 46, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    .ant-dropdown-menu-item{
+        font-size: 12px;
+        font-family: Open Sans;
+        font-style: normal;
+        line-height: 120%;
+        color: #2E2E2E;
+        &:hover{
+            font-weight: 600;
+            color: #000999 !important;
+            background: #F8F8F8;
+        }
+    }
+    .ant-dropdown-menu-title-content{
+        display: contents;
+    }
+}
+
+.adherenceBtn{
+    border-radius: 50px;
+}
+.colorChange{
+    border-radius: 50px;
+background: #000099;
+color: #FFFFFF;
+}
+.commplianceBorder{
+    padding : 10px;
+
+}
+.logoCenter {
+    text-align: end;
+ 
+} 
+.calendar{
+        font-size: 2.5rem !important;
+        cursor: pointer;
+        &:hover{
+            color: #000099 !important;
+        }
+}
+.adherenceBorder{
+    border: 1px solid rgba(137, 137, 137, 0.5);
+    border-radius: 50px;
+    position: relative;
+    top: -14px;
+    left: 34px;
+
+}
+.displaypatientId{
+    text-transform: uppercase;
+}
+@media(min-width:768px)and (max-width:1200px){
+    .web-View{
+        display: none !important
+    }
+    .mob-View{
+        display: block !important;
+    }
+    .mbView-adherenceBtn >.adherenceBorder{
+        position: fixed;
+        top: 218px;
+        left: 162px;
+    }
+      .mbView-adherenceBtn{
+       
+        .commplianceBorder{
+            display: flex;
+            padding: 5px!important;
+                }
+        .commplianceBorder>div{
+            padding: 0px 5px;
+        }
+        .adherenceBtn,.colorChange{
+            padding: 0px 60px;
+        }
+      
+    }
+    .summaryRow{
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .mbView-adherenceBtn >.adherenceBorder{
+        left: 400px !important;
+    }
+   
+}
+@media only screen and (max-width: 970px){
+    .mbView-adherenceBtn >.adherenceBorder{
+        left: 235px !important;
+    }
+   
+}
+@media (max-width: 800px){
+    .mbView-adherenceBtn >.adherenceBorder{
+        left: 235px !important;
+    }
+    .logoCenter .calendar {
+        font-size: 30px !important;
+    }
+   
+}
+@media(min-width:800px)and (max-width:992px){
+    .logoCenter .calendar {
+        font-size: 35px !important;
+    }
+}
+@media only screen and (max-width: 984px){ 
+.mbView-adherenceBtn > .adherenceBorder {
+    left: 356px !important;
+    top:228px
+}
+}
+@media (min-width:768px)and (max-width: 848px){ 
+.mbView-adherenceBtn > .adherenceBorder {
+    left: 270px !important;
+    top: 230px;
+}
+}
+@media (min-width:990px)and (max-width: 1199px){ 
+    .mbView-adherenceBtn > .adherenceBorder {
+        top: 236px;
+    }
+    }
+@media (min-width:990px)and (max-width:1030px){
+    .mbView-adherenceBtn > .adherenceBorder {
+        left: 356px !important;
+        top: 232px;
+
+    }
+}

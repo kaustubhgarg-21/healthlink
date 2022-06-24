@@ -1,0 +1,139 @@
+
+.sideBar-menu{
+  .ant-menu-item{
+    height: 6.2vh !important;
+    min-height: 45px;
+    max-height: 62px;
+    margin-top: 0px !important;
+    margin-bottom: 4px !important;
+    display: flex;
+    align-items: center;
+  }
+.menu-item-row{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    color: #898989;
+    border-right: 5px transparent;
+    margin-bottom: 5px;
+    .span{
+        padding-top: 0.75rem;
+    }
+    .ant-menu-title-content{
+      margin-left: 13px !important;
+    }
+    
+
+}
+.ant-menu-item:hover {
+  color: #000099 !important;
+  background: rgba(137, 137, 137, 0.1) !important;
+  cursor: pointer;
+  }
+  .ant-menu-item::after {
+    border-right: none !important;
+  }
+  .ant-menu-item-selected{
+    font-weight: 400;
+    background: #F4F4F4!important;
+    border-right: 5px solid #000099;
+  }
+  .ant-menu-submenu-title:hover{
+    color: #535252 !important;
+    background-color: rgba(255,255,255,0.2)!important;
+    cursor: pointer;
+  }
+  .ant-menu-submenu:hover > .ant-menu-submenu-title{
+    .ant-menu-submenu-arrow{
+      color:  #000099 !important;;
+    }
+  }
+  .ant-menu-sub.ant-menu-inline{
+    background: rgba(137, 137, 137, 0.1) !important;
+  }
+  .subItem{
+    background: transparent !important;
+    border-right: none !important;
+    padding-left: 1.5rem !important;
+  }
+}
+  .logoContainer{
+    width: 100%;
+      height: 7.1vh;
+      height: auto !important;
+     display: flex;
+     align-items: center;
+    margin-bottom: 3vh;
+    padding-right: 13px;
+    margin-top: 1rem;
+    padding-left: 24px;
+  }
+  .logoContainer img{
+  width: fit-content !important;
+  }
+  .colLogo{
+    padding-left: 9px;
+    padding-right: 13px;
+    width: 100%;
+    height: 8.9vh !important;
+    min-height: 75px;
+    max-height: 85px;
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    justify-content: center;
+    margin-bottom: 3vh;
+
+  }
+  
+.colLogo img{
+  width: fit-content !important;
+  height: auto !important;
+}
+  .ant-menu-item-selected{
+    color: #000099 !important;
+  }
+  .ant-menu-vertical .ant-menu-submenu-selected{
+    color: #000099 !important;
+  }
+  .ant-menu-light .ant-menu-item:hover{
+    color: #000099 !important;
+  }
+
+  @media only screen and (max-width: 998px) {
+    .menu-item-row{
+      padding-left: 10px !important;
+    }
+    .ant-menu-submenu-title{
+      padding: 0px!important;
+    }
+}
+@media(max-width:768px){
+  .logoContainer{
+    width: 100%;
+      height: 7.1vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    margin-bottom: 3vh;
+    padding-left: 0px !important;
+    padding-right:0px !important;
+    padding-top: 1rem;
+ }
+
+.f-12 {
+    font-size: 12px !important;
+}
+}
+@media(min-width:768px)and(max-width:1200px){
+  
+  .logoContainer img{
+    width: 100% !important;
+  }
+}
+@media(min-width:768px)and(max-width:998px){ 
+  .ant-menu.ant-menu-inline-collapsed > .ant-menu-item{
+  padding: 0 22px !important;
+  }
+}
+

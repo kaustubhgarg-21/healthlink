@@ -1,0 +1,42 @@
+export const payerDumData = [{
+    id: "0",
+    userName: "Josh M Ryan",
+    city: "Rockvile, NJ",
+    email: "josh@gmail.com",
+    contactNo: "9910847026",
+},
+{
+    id: "1",
+    userName: "Charlie Puth",
+    city: "Rockvile, NJ",
+    email: "charlie@gmail.com",
+    contactNo: "9910847026",
+},
+{
+    id: "2",
+    userName: "Taylor Swift",
+    city: "Rockvile, NJ",
+    email: "taylor@gmail.com",
+    contactNo: "9910847026",
+},
+{
+    id: "2",
+    userName: "Joe Alwyn",
+    city: "Rockvile, NJ",
+    email: "joe@gmail.com",
+    contactNo: "9910847026",
+},
+{
+    id: "2",
+    userName: "Tom Ellis",
+    city: "Rockvile, NJ",
+    email: "tom@gmail.com",
+    contactNo: "9910847026",
+},
+{
+    id: "3",
+    userName: "Lauren German",
+    city: "Rockvile, NJ",
+    email: "lauren@gmail.com",
+    contactNo: "9910847026",
+}]

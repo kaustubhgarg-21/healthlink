@@ -1,0 +1,21 @@
+export const user={
+    id: 1,
+    firstName: "Paul",
+    mi:"hill",
+    lastName:"finix",
+    userName:"paul123",
+    address1: "New Jersey",
+    address2: "New York",
+    emailId: "xyz@gmail.com",
+    contactNumber: "+140313313",
+    mobileNumber: "9876543210",
+    country: "India",
+    state:"up",
+    city:"Noida",
+    zip: "201301",
+    timeZone: "Kolkata",
+    notes: "Kucch Bhi",
+    status: "Active",
+    role:"Admin",
+    
+}

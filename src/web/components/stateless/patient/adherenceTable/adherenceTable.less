@@ -1,0 +1,93 @@
+.adherenceHeader{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+line-height: 120%;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000099;
+}
+
+.adherenceCard{
+    padding: 1.75rem 1.938rem 1.75rem 1.938rem;
+     min-height: 65.5vh;
+}
+.iconT{
+    display: flex !important;
+    justify-content: right;
+}
+.rowAdherence{
+    justify-content: space-between;
+
+}
+
+.adherenceTable{
+    font-family: Open Sans;
+    .selected{
+        background: rgba(137, 137, 137, 0.12);
+        td{
+            padding:0px;
+            .cellRenderer{
+                border-left: 3px solid #000099 !important;
+                align-items: center;
+                padding: 10px 10px 0.938rem 1.875rem;
+                border: 1px solid #E9ECEF;
+            }
+        }
+        }
+    thead{
+        tr{
+            th{
+                
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                align-items: center;
+                text-align: center;
+                text-transform: capitalize;
+                
+                color: #2E2E2E;
+                }
+        }
+        
+    }
+    .departmentTable{
+        thead{
+            display: none;
+        }
+    }
+    td{
+        height: 2.5rem;
+        border: 1px solid rgba(137, 137, 137, 0.1);
+        text-align: center;
+    }
+    .ant-table-expanded-row-level-1{
+        td{
+            height: 2.5rem;
+            border: 1px solid rgba(137, 137, 137, 0.1);
+        }
+    }
+}
+
+.adherenceDefine{
+    margin-top: 33px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-size: 10px;
+line-height: 150%;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+color: rgba(46, 46, 46, 0.7);
+
+}
+@media(max-width:991px){
+    .adherencetLegend{
+     order: 3;
+     position: relative;
+     top: 0;
+     margin-top: 10px;
+    }
+}

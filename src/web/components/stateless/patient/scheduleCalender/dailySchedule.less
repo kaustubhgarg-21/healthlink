@@ -1,0 +1,120 @@
+.durationSelector{
+    font-size: 25px !important;
+    cursor: pointer;
+    color: gray;
+}
+.adhKey{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+    color: #2E2E2E;
+}
+.time-col{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+line-height: 120%;
+color: #2E2E2E;
+text-align: right;
+}
+.dateMenu{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    .dateFormat{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        letter-spacing: 0.05em;
+        color: #2E2E2E;
+        font-size: 25px !important;
+    }
+    
+}
+.scheduleMonth {
+    font-family: Open Sans;
+    .ant-picker-calendar-header {
+    display: none;
+    }
+    .ant-picker-calendar-date-value{
+        text-align: left;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: #2E2E2E;
+    }
+    .ant-picker-calendar-date{
+        margin: 0px !important;   
+    }
+    .ant-picker-calendar-date-content{
+        overflow-y: clip !important;
+    }
+    thead{
+        text-align: center;
+        height: 4.5vh;
+        
+        font-size: 13px;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgba(46, 46, 46, 0.9);
+
+        tr{
+            th{
+                border: 1px solid #cccccc !important;
+                font-weight: 600;
+            }
+        }
+    }
+    tbody{
+        tr{
+            td {
+                border-left: 1px solid #cccccc !important;
+                border-bottom: 1px solid #cccccc !important;
+              }
+              td:last-child {
+                border-right: 1px solid #cccccc !important; 
+              }
+        }
+    }
+}
+.scheduleTitle{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    p{
+        font-family:"Open Sans";
+        font-size:16px;
+        font-weight: 600;
+        color: #2E2E2E;
+
+    }
+}
+@media(max-width:1024px){
+    .dateMenu .dateFormat {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        letter-spacing: 0.05em;
+        color: #2E2E2E;
+        font-size: 18px!important;
+    }
+}
+@media(max-width:1324px){
+    .dateMenu .dateFormat {
+        font-size: 20px!important;
+    }
+}
+@media(max-width:992px){
+    .dateMenu .dateFormat {
+        font-size: 14px!important;
+    } 
+}
